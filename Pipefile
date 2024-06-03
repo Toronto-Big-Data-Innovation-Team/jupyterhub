@@ -65,6 +65,14 @@ selenium = "*"
 networkx = "*"
 jupyterhub = "*"
 shap = "*"
+holoviews = "*"
+pandas-bokeh = "*"
+pyarrow = "*"
+openpyxl = "*"
+fuzzywuzzy = "*"
+dash = "*"
+jupyterhub-systemdspawner = "*"
+graphviz = "*"
 
 [dev-packages]
 
