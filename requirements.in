@@ -75,4 +75,4 @@ nbconvert
 ipython
 
 # sqlfluff
-sqlfluff==3.0.5
+sqlfluff==3.2.5
