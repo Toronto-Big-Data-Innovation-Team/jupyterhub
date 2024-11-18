@@ -93,7 +93,6 @@ certifi==2024.8.30
     #   fiona
     #   httpcore
     #   httpx
-    #   pyogrio
     #   pyproj
     #   requests
     #   selenium
@@ -346,7 +345,7 @@ jupyter==1.1.1
     # via -r requirements.in
 jupyter-book==1.0.3
     # via -r requirements.in
-jupyter-cache==1.0.0
+jupyter-cache==1.0.1
     # via myst-nb
 jupyter-client==8.6.3
     # via
@@ -540,7 +539,6 @@ numpy==1.26.4
     #   pandas
     #   patsy
     #   pyerfa
-    #   pyogrio
     #   scikit-learn
     #   scipy
     #   seaborn
@@ -581,7 +579,6 @@ packaging==24.2
     #   nbconvert
     #   panel
     #   plotly
-    #   pyogrio
     #   pytest
     #   shap
     #   sphinx
