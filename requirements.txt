@@ -93,7 +93,6 @@ certifi==2024.8.30
     #   fiona
     #   httpcore
     #   httpx
-    #   pyogrio
     #   pyproj
     #   requests
     #   selenium
@@ -474,7 +473,7 @@ myst-parser==2.0.0
     # via
     #   jupyter-book
     #   myst-nb
-narwhals==1.13.5
+narwhals==1.14.2
     # via altair
 nbclient==0.10.0
     # via
@@ -540,7 +539,6 @@ numpy==1.26.4
     #   pandas
     #   patsy
     #   pyerfa
-    #   pyogrio
     #   scikit-learn
     #   scipy
     #   seaborn
@@ -581,7 +579,6 @@ packaging==24.2
     #   nbconvert
     #   panel
     #   plotly
-    #   pyogrio
     #   pytest
     #   shap
     #   sphinx
