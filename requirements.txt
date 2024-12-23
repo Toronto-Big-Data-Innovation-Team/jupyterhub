@@ -36,7 +36,7 @@ astropy==6.1.6
     # via
     #   -r requirements.in
     #   baseband
-astropy-iers-data==0.2024.11.11.0.32.38
+astropy-iers-data==0.2024.12.23.0.33.24
     # via astropy
 asttokens==2.4.1
     # via stack-data
@@ -93,7 +93,6 @@ certifi==2024.8.30
     #   fiona
     #   httpcore
     #   httpx
-    #   pyogrio
     #   pyproj
     #   requests
     #   selenium
@@ -540,7 +539,6 @@ numpy==1.26.4
     #   pandas
     #   patsy
     #   pyerfa
-    #   pyogrio
     #   scikit-learn
     #   scipy
     #   seaborn
@@ -581,7 +579,6 @@ packaging==24.2
     #   nbconvert
     #   panel
     #   plotly
-    #   pyogrio
     #   pytest
     #   shap
     #   sphinx
