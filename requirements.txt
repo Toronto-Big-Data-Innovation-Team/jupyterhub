@@ -328,7 +328,7 @@ jupyter==1.1.1
     # via -r requirements.in
 jupyter-book==1.0.3
     # via -r requirements.in
-jupyter-cache==1.0.0
+jupyter-cache==1.0.1
     # via myst-nb
 jupyter-client==8.6.3
     # via
