@@ -368,14 +368,14 @@ jupyter-server==2.14.2
     #   voila
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterhub==5.0.0
+jupyterhub==5.1.0
     # via
     #   -r requirements.in
     #   jupyterhub-systemdspawner
     #   sudospawner
 jupyterhub-systemdspawner==1.0.2
     # via -r requirements.in
-jupyterlab==4.2.3
+jupyterlab==4.2.5
     # via
     #   -r requirements.in
     #   jupyter
@@ -489,7 +489,7 @@ networkx==3.3
     #   momepy
     #   osmnx
     #   pyvis
-notebook==7.2.1
+notebook==7.2.2
     # via
     #   -r requirements.in
     #   jupyter
