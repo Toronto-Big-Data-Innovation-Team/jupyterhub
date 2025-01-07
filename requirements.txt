@@ -24,8 +24,6 @@ anyio==4.6.2.post1
     # via
     #   httpx
     #   jupyter-server
-appdirs==1.4.4
-    # via sqlfluff
 argon2-cffi==23.1.0
     # via jupyter-server
 argon2-cffi-bindings==21.2.0
@@ -619,6 +617,7 @@ platformdirs==4.3.6
     # via
     #   jupyter-core
     #   libpysal
+    #   sqlfluff
 plotly==5.24.1
     # via
     #   -r requirements.in
@@ -883,7 +882,7 @@ sqlalchemy==2.0.36
     #   geoalchemy2
     #   jupyter-cache
     #   jupyterhub
-sqlfluff==3.0.5
+sqlfluff==3.3.0
     # via -r requirements.in
 stack-data==0.6.3
     # via ipython
@@ -981,7 +980,6 @@ typing-extensions==4.12.2
     #   python-docx
     #   selenium
     #   sqlalchemy
-    #   sqlfluff
 tzdata==2024.2
     # via pandas
 uc-micro-py==1.0.3
