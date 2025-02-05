@@ -10,6 +10,7 @@ python-docx
 #pinned because of a dependency issue, this is otherwise not deliberately installer
 #rasterio==1.3.10
 #contextily
+r5py
 geopandas
 seaborn
 folium
