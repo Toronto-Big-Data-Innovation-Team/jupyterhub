@@ -36,7 +36,7 @@ astropy==6.1.6
     # via
     #   -r requirements.in
     #   baseband
-astropy-iers-data==0.2024.11.11.0.32.38
+astropy-iers-data==0.2025.1.13.0.34.51
     # via astropy
 asttokens==2.4.1
     # via stack-data
