@@ -370,9 +370,12 @@ jupyter-leaflet==0.19.2
     # via ipyleaflet
 jupyter-lsp==2.2.5
     # via jupyterlab
+jupyter-resource-usage==0.6.0
+    # via -r requirements.in
 jupyter-server==2.14.2
     # via
     #   jupyter-lsp
+    #   jupyter-resource-usage
     #   jupyterlab
     #   jupyterlab-server
     #   notebook
@@ -644,6 +647,7 @@ pluggy==1.5.0
     #   pytest
 prometheus-client==0.21.0
     # via
+    #   jupyter-resource-usage
     #   jupyter-server
     #   jupyterhub
 prompt-toolkit==3.0.48
@@ -658,6 +662,7 @@ psutil==6.1.0
     # via
     #   -r requirements.in
     #   ipykernel
+    #   jupyter-resource-usage
     #   r5py
 psycopg==3.2.3
     # via -r requirements.in

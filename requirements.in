@@ -76,6 +76,8 @@ notebook==7.2.1
 configurable-http-proxy
 nbconvert
 ipython
+jupyter-resource-usage
+
 
 # sqlfluff
 sqlfluff==3.0.5
