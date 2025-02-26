@@ -11,6 +11,8 @@ python-docx
 #rasterio==1.3.10
 #contextily
 r5py
+esda
+#pysal # tobler sub-package requires rasterio which requires GDAL >= 3.5
 geopandas
 seaborn
 folium
