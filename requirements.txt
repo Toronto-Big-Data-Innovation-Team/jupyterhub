@@ -179,6 +179,8 @@ docutils==0.20.1
     #   sphinxcontrib-bibtex
 env-canada==0.7.2
     # via -r requirements.in
+esda==2.7.0
+    # via -r requirements.in
 et-xmlfile==2.0.0
     # via openpyxl
 exceptiongroup==1.2.2
@@ -225,6 +227,7 @@ geographiclib==2.0
 geopandas==0.14.4
     # via
     #   -r requirements.in
+    #   esda
     #   libpysal
     #   momepy
     #   osmnx
@@ -411,7 +414,9 @@ kiwisolver==1.4.7
 latexcodec==3.0.0
     # via pybtex
 libpysal==4.12.1
-    # via momepy
+    # via
+    #   esda
+    #   momepy
 linkify-it-py==2.0.3
     # via
     #   jupyter-book
@@ -522,6 +527,7 @@ numpy==1.26.4
     #   centerline
     #   contourpy
     #   env-canada
+    #   esda
     #   folium
     #   geopandas
     #   holoviews
@@ -590,6 +596,7 @@ pandas==2.2.3
     #   -r requirements.in
     #   bokeh
     #   env-canada
+    #   esda
     #   geopandas
     #   holoviews
     #   libpysal
@@ -799,6 +806,7 @@ rpds-py==0.21.0
 scikit-learn==1.5.2
     # via
     #   -r requirements.in
+    #   esda
     #   libpysal
     #   mapclassify
     #   shap
@@ -806,6 +814,7 @@ scipy==1.14.1
     # via
     #   -r requirements.in
     #   centerline
+    #   esda
     #   hyperopt
     #   libpysal
     #   mapclassify
@@ -824,6 +833,7 @@ shapely==2.0.6
     # via
     #   -r requirements.in
     #   centerline
+    #   esda
     #   geopandas
     #   libpysal
     #   momepy
