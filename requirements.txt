@@ -919,7 +919,7 @@ sqlalchemy==2.0.36
     #   geoalchemy2
     #   jupyter-cache
     #   jupyterhub
-sqlfluff==3.3.0
+sqlfluff==3.3.1
     # via -r requirements.in
 stack-data==0.6.3
     # via ipython

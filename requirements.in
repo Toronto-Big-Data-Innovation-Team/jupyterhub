@@ -82,4 +82,4 @@ jupyter-resource-usage
 
 
 # sqlfluff
-sqlfluff==3.3.0
+sqlfluff==3.3.1
