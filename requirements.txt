@@ -964,7 +964,7 @@ tornado==6.4.1
     #   jupyterlab
     #   notebook
     #   terminado
-tqdm==4.67.0
+tqdm==4.67.1
     # via
     #   hyperopt
     #   momepy
