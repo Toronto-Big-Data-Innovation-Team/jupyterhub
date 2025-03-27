@@ -66,6 +66,7 @@ fuzzywuzzy
 graphviz
 ipyleaflet==0.19.2
 pip-tools
+great_tables #i018
 
 # Jupyter
 jupyterlab==4.2.3
@@ -82,4 +83,4 @@ jupyter-resource-usage
 
 
 # sqlfluff
-sqlfluff==3.3.0
+sqlfluff==3.3.1
