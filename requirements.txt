@@ -1061,7 +1061,7 @@ websocket-client==1.8.0
     # via
     #   jupyter-server
     #   selenium
-websockets==14.1
+websockets==15.0.1
     # via voila
 wheel==0.45.0
     # via
