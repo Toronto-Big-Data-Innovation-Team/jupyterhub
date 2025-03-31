@@ -437,7 +437,7 @@ llvmlite==0.43.0
     # via numba
 lorem==0.1.1
     # via -r requirements.in
-lxml==5.3.0
+lxml==5.3.1
     # via
     #   -r requirements.in
     #   env-canada
