@@ -191,7 +191,7 @@ exceptiongroup==1.2.2
     #   pytest
     #   trio
     #   trio-websocket
-executing==2.1.0
+executing==2.2.0
     # via stack-data
 faicons==0.2.2
     # via great-tables
