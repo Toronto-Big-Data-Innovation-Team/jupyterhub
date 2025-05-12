@@ -478,7 +478,7 @@ mistune==3.0.2
     # via nbconvert
 momepy==0.8.1
     # via -r requirements.in
-multidict==6.1.0
+multidict==6.4.3
     # via
     #   aiohttp
     #   yarl
