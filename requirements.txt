@@ -1075,7 +1075,7 @@ wsproto==1.2.0
     # via trio-websocket
 xlsxwriter==3.2.0
     # via -r requirements.in
-xyzservices==2025.1.0
+xyzservices==2025.4.0
     # via
     #   bokeh
     #   folium
