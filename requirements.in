@@ -1,5 +1,4 @@
 # Jupyterhub Environment Packages
-igraph
 psycopg2
 psycopg
 pandas
