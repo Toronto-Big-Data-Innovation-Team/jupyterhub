@@ -20,7 +20,7 @@ altair==5.4.1
     # via -r requirements.in
 annotated-types==0.7.0
     # via pydantic
-anyio==4.6.2.post1
+anyio==4.9.0
     # via
     #   httpx
     #   jupyter-server
