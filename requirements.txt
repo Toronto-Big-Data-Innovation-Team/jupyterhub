@@ -75,7 +75,7 @@ bokeh==3.6.1
     #   holoviews
     #   pandas-bokeh
     #   panel
-branca==0.8.0
+branca==0.8.1
     # via
     #   folium
     #   ipyleaflet
