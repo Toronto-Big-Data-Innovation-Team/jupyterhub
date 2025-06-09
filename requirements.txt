@@ -65,7 +65,7 @@ beautifulsoup4==4.12.3
     #   libpysal
     #   nbconvert
     #   pydata-sphinx-theme
-bleach==6.2.0
+bleach[css]==6.2.0
     # via
     #   nbconvert
     #   panel
@@ -496,7 +496,7 @@ nbclient==0.10.0
     #   myst-nb
     #   nbconvert
     #   voila
-nbconvert==7.16.4
+nbconvert==7.16.6
     # via
     #   -r requirements.in
     #   jupyter
@@ -958,7 +958,7 @@ terminado==0.18.1
 threadpoolctl==3.5.0
     # via scikit-learn
 tinycss2==1.4.0
-    # via nbconvert
+    # via bleach
 toml==0.10.2
     # via sqlfluff
 tomli==2.1.0
