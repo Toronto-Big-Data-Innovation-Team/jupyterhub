@@ -756,7 +756,7 @@ pytz==2024.2
     # via pandas
 pyvis==0.3.2
     # via -r requirements.in
-pyviz-comms==3.0.4
+pyviz-comms==3.0.6
     # via
     #   holoviews
     #   panel
