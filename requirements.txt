@@ -107,7 +107,7 @@ charset-normalizer==3.4.0
     # via requests
 chart-studio==1.1.0
     # via -r requirements.in
-click==8.1.7
+click==8.2.1
     # via
     #   centerline
     #   click-plugins
