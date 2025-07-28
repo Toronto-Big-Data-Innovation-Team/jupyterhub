@@ -628,7 +628,7 @@ pandas-bokeh==0.5.5
     # via -r requirements.in
 pandocfilters==1.5.1
     # via nbconvert
-panel==1.5.4
+panel==1.7.5
     # via holoviews
 param==2.1.1
     # via
