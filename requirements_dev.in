@@ -69,13 +69,13 @@ pip-tools
 great_tables #i018
 
 # Jupyter
-jupyterlab==4.2.3
+jupyterlab==4.2.5
 jupyter
-jupyterhub==5.0.0
+jupyterhub==5.1.0
 jupyterhub-systemdspawner
-jupyter-book
+jupyter-book==1.0.4
 sudospawner
-notebook==7.2.1
+notebook==7.2.2
 configurable-http-proxy
 nbconvert
 ipython
