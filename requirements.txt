@@ -790,7 +790,7 @@ referencing==0.35.1
     #   jupyter-events
 regex==2024.11.6
     # via sqlfluff
-requests==2.32.3
+requests==2.32.4
     # via
     #   chart-studio
     #   folium
