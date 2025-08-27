@@ -1,5 +1,4 @@
 # Jupyterhub Environment Packages
-psycopg2
 psycopg
 pandas
 matplotlib
