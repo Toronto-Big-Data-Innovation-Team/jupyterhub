@@ -1,4 +1,4 @@
-name: Test DAGs
+name: Install Requirements.txt
 
 on: pull_request
 
