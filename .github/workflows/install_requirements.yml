@@ -3,7 +3,7 @@ name: Install Requirements.txt
 on: pull_request
 
 jobs:
-  test_dags:
+  test_requirements_txt:
     runs-on: ubuntu-22.04  # Ubuntu 22.04 LTS (Jammy Jellyfish)
     strategy:
       matrix:
