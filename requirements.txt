@@ -1065,7 +1065,7 @@ websocket-client==1.8.0
     #   selenium
 websockets==15.0.1
     # via voila
-wheel==0.45.0
+wheel==0.45.1
     # via
     #   pip-tools
     #   sphinx-togglebutton
