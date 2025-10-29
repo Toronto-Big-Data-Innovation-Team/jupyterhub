@@ -69,7 +69,7 @@ bleach[css]==6.2.0
     # via
     #   nbconvert
     #   panel
-bokeh==3.6.1
+bokeh==3.8.0
     # via
     #   -r requirements.in
     #   holoviews
@@ -489,7 +489,9 @@ myst-parser==3.0.1
     #   jupyter-book
     #   myst-nb
 narwhals==1.29.0
-    # via altair
+    # via
+    #   altair
+    #   bokeh
 nbclient==0.10.0
     # via
     #   jupyter-cache
@@ -629,7 +631,7 @@ pandas-bokeh==0.5.5
     # via -r requirements.in
 pandocfilters==1.5.1
     # via nbconvert
-panel==1.7.5
+panel==1.8.2
     # via holoviews
 param==2.1.1
     # via
