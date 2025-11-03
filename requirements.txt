@@ -1055,7 +1055,7 @@ voluptuous==0.15.2
     # via env-canada
 wcwidth==0.2.13
     # via prompt-toolkit
-webcolors==24.11.1
+webcolors==25.10.0
     # via jsonschema
 webencodings==0.5.1
     # via
