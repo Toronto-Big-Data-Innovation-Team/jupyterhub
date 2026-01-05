@@ -425,7 +425,7 @@ kiwisolver==1.4.7
     # via matplotlib
 latexcodec==3.0.0
     # via pybtex
-libpysal==4.12.1
+libpysal==4.13.0
     # via
     #   esda
     #   momepy
