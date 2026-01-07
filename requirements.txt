@@ -80,7 +80,7 @@ build==1.2.2.post1
     # via pip-tools
 centerline==1.1.1
     # via -r requirements.in
-certifi==2024.8.30
+certifi==2025.11.12
     # via
     #   fiona
     #   httpcore
