@@ -4,8 +4,6 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
-accessible-pygments==0.0.5
-    # via pydata-sphinx-theme
 aiohappyeyeballs==2.4.3
     # via aiohttp
 aiohttp==3.11.1
@@ -47,7 +45,6 @@ attrs==24.2.0
     #   aiohttp
     #   fiona
     #   jsonschema
-    #   jupyter-cache
     #   outcome
     #   referencing
     #   trio
@@ -55,7 +52,6 @@ babel==2.16.0
     # via
     #   great-tables
     #   jupyterlab-server
-    #   pydata-sphinx-theme
     #   sphinx
 baseband==4.2.0
     # via -r requirements.in
@@ -64,7 +60,6 @@ beautifulsoup4==4.12.3
     #   bs4
     #   libpysal
     #   nbconvert
-    #   pydata-sphinx-theme
 bleach[css]==6.2.0
     # via
     #   nbconvert
@@ -115,10 +110,7 @@ click==8.2.1
     #   configurable-http-proxy
     #   fiona
     #   geocoder
-    #   jupyter-book
-    #   jupyter-cache
     #   pip-tools
-    #   sphinx-external-toc
     #   sqlfluff
 click-plugins==1.1.1
     # via fiona
@@ -171,13 +163,7 @@ diff-cover==9.2.0
 distro==1.9.0
     # via tabula-py
 docutils==0.21.2
-    # via
-    #   myst-parser
-    #   pybtex-docutils
-    #   pydata-sphinx-theme
-    #   sphinx
-    #   sphinx-togglebutton
-    #   sphinxcontrib-bibtex
+    # via sphinx
 env-canada==0.7.2
     # via -r requirements.in
 esda==2.7.0
@@ -275,10 +261,7 @@ imageio==2.36.0
 imagesize==1.4.1
     # via sphinx
 importlib-metadata==8.5.0
-    # via
-    #   great-tables
-    #   jupyter-cache
-    #   myst-nb
+    # via great-tables
 importlib-resources==6.5.2
     # via
     #   great-tables
@@ -288,9 +271,9 @@ iniconfig==2.0.0
 ipykernel==6.29.5
     # via
     #   jupyter
+    #   jupyter-book
     #   jupyter-console
     #   jupyterlab
-    #   myst-nb
 ipyleaflet==0.19.2
     # via -r requirements.in
 ipython==8.29.0
@@ -299,7 +282,6 @@ ipython==8.29.0
     #   ipykernel
     #   ipywidgets
     #   jupyter-console
-    #   myst-nb
     #   pyvis
 ipywidgets==8.1.8
     # via
@@ -320,12 +302,10 @@ jinja2==3.1.4
     #   branca
     #   diff-cover
     #   folium
-    #   jupyter-book
     #   jupyter-server
     #   jupyterhub
     #   jupyterlab
     #   jupyterlab-server
-    #   myst-parser
     #   nbconvert
     #   pyvis
     #   sphinx
@@ -345,7 +325,6 @@ jsonpointer==3.0.0
 jsonschema[format-nongpl]==4.23.0
     # via
     #   altair
-    #   jupyter-book
     #   jupyter-events
     #   jupyterlab-server
     #   nbformat
@@ -353,10 +332,8 @@ jsonschema-specifications==2024.10.1
     # via jsonschema
 jupyter==1.1.1
     # via -r requirements.in
-jupyter-book==1.0.4
+jupyter-book==2.1.0
     # via -r requirements.in
-jupyter-cache==1.0.1
-    # via myst-nb
 jupyter-client==8.6.3
     # via
     #   ipykernel
@@ -369,6 +346,7 @@ jupyter-console==6.6.3
 jupyter-core==5.7.2
     # via
     #   ipykernel
+    #   jupyter-book
     #   jupyter-client
     #   jupyter-console
     #   jupyter-server
@@ -389,6 +367,7 @@ jupyter-resource-usage==0.6.0
     # via -r requirements.in
 jupyter-server==2.14.2
     # via
+    #   jupyter-book
     #   jupyter-lsp
     #   jupyter-resource-usage
     #   jupyterlab
@@ -423,16 +402,12 @@ kaleido==0.2.1
     # via -r requirements.in
 kiwisolver==1.4.7
     # via matplotlib
-latexcodec==3.0.0
-    # via pybtex
 libpysal==4.13.0
     # via
     #   esda
     #   momepy
 linkify-it-py==2.0.3
-    # via
-    #   jupyter-book
-    #   panel
+    # via panel
 llvmlite==0.43.0
     # via numba
 lorem==0.1.1
@@ -451,7 +426,6 @@ markdown==3.10
 markdown-it-py==3.0.0
     # via
     #   mdit-py-plugins
-    #   myst-parser
     #   panel
 markupsafe==3.0.2
     # via
@@ -469,9 +443,7 @@ matplotlib-inline==0.1.7
     #   ipykernel
     #   ipython
 mdit-py-plugins==0.4.2
-    # via
-    #   myst-parser
-    #   panel
+    # via panel
 mdurl==0.1.2
     # via markdown-it-py
 mistune==3.0.2
@@ -482,20 +454,12 @@ multidict==6.4.4
     # via
     #   aiohttp
     #   yarl
-myst-nb==1.1.2
-    # via jupyter-book
-myst-parser==3.0.1
-    # via
-    #   jupyter-book
-    #   myst-nb
 narwhals==1.29.0
     # via
     #   altair
     #   bokeh
 nbclient==0.10.0
     # via
-    #   jupyter-cache
-    #   myst-nb
     #   nbconvert
     #   voila
 nbconvert==7.16.6
@@ -506,9 +470,7 @@ nbconvert==7.16.6
     #   voila
 nbformat==5.10.4
     # via
-    #   jupyter-cache
     #   jupyter-server
-    #   myst-nb
     #   nbclient
     #   nbconvert
 nest-asyncio==1.6.0
@@ -523,6 +485,8 @@ networkx==3.3
     #   momepy
     #   osmnx
     #   pyvis
+nodeenv==1.10.0
+    # via jupyter-book
 notebook==7.2.2
     # via
     #   -r requirements.in
@@ -600,11 +564,9 @@ packaging==24.2
     #   nbconvert
     #   panel
     #   plotly
-    #   pydata-sphinx-theme
     #   pytest
     #   shap
     #   sphinx
-    #   sphinx-jupyterbook-latex
     #   statsmodels
 pamela==1.2.0
     # via jupyterhub
@@ -659,6 +621,7 @@ pip-tools==7.4.1
     # via -r requirements.in
 platformdirs==4.4.0
     # via
+    #   jupyter-book
     #   jupyter-core
     #   libpysal
     #   sqlfluff
@@ -703,30 +666,20 @@ py4j==0.10.9.7
     # via hyperopt
 pyarrow==18.0.0
     # via -r requirements.in
-pybtex==0.24.0
-    # via
-    #   pybtex-docutils
-    #   sphinxcontrib-bibtex
-pybtex-docutils==1.0.3
-    # via sphinxcontrib-bibtex
 pycparser==2.22
     # via cffi
 pydantic==2.9.2
     # via jupyterhub
 pydantic-core==2.23.4
     # via pydantic
-pydata-sphinx-theme==0.15.4
-    # via sphinx-book-theme
 pyerfa==2.0.1.5
     # via astropy
 pygments==2.18.0
     # via
-    #   accessible-pygments
     #   diff-cover
     #   ipython
     #   jupyter-console
     #   nbconvert
-    #   pydata-sphinx-theme
     #   sphinx
 pyparsing==3.2.0
     # via matplotlib
@@ -767,13 +720,7 @@ pyyaml==6.0.2
     # via
     #   astropy
     #   bokeh
-    #   jupyter-book
-    #   jupyter-cache
     #   jupyter-events
-    #   myst-nb
-    #   myst-parser
-    #   pybtex
-    #   sphinx-external-toc
     #   sqlfluff
 pyzmq==27.1.0
     # via
@@ -863,7 +810,6 @@ six==1.16.0
     #   chart-studio
     #   geocoder
     #   hyperopt
-    #   pybtex
     #   python-dateutil
     #   retrying
     #   rfc3339-validator
@@ -881,46 +827,11 @@ sortedcontainers==2.4.0
 soupsieve==2.6
     # via beautifulsoup4
 sphinx==7.4.7
-    # via
-    #   jupyter-book
-    #   myst-nb
-    #   myst-parser
-    #   pydata-sphinx-theme
-    #   sphinx-book-theme
-    #   sphinx-comments
-    #   sphinx-copybutton
-    #   sphinx-design
-    #   sphinx-external-toc
-    #   sphinx-gallery
-    #   sphinx-jupyterbook-latex
-    #   sphinx-multitoc-numbering
-    #   sphinx-thebe
-    #   sphinx-togglebutton
-    #   sphinxcontrib-bibtex
-sphinx-book-theme==1.1.4
-    # via jupyter-book
-sphinx-comments==0.0.3
-    # via jupyter-book
-sphinx-copybutton==0.5.2
-    # via jupyter-book
-sphinx-design==0.6.1
-    # via jupyter-book
-sphinx-external-toc==1.0.1
-    # via jupyter-book
+    # via sphinx-gallery
 sphinx-gallery==0.18.0
     # via -r requirements.in
-sphinx-jupyterbook-latex==1.0.0
-    # via jupyter-book
-sphinx-multitoc-numbering==0.1.3
-    # via jupyter-book
-sphinx-thebe==0.3.1
-    # via jupyter-book
-sphinx-togglebutton==0.3.2
-    # via jupyter-book
 sphinxcontrib-applehelp==2.0.0
     # via sphinx
-sphinxcontrib-bibtex==2.6.3
-    # via jupyter-book
 sphinxcontrib-devhelp==2.0.0
     # via sphinx
 sphinxcontrib-htmlhelp==2.1.0
@@ -936,7 +847,6 @@ sqlalchemy==2.0.36
     #   -r requirements.in
     #   alembic
     #   geoalchemy2
-    #   jupyter-cache
     #   jupyterhub
 sqlfluff==3.3.1
     # via -r requirements.in
@@ -948,8 +858,6 @@ sudospawner==0.5.2
     # via -r requirements.in
 tabula-py==2.10.0
     # via -r requirements.in
-tabulate==0.9.0
-    # via jupyter-cache
 tblib==3.0.0
     # via sqlfluff
 tenacity==9.0.0
@@ -1030,12 +938,10 @@ typing-extensions==4.12.2
     #   htmltools
     #   ipython
     #   multidict
-    #   myst-nb
     #   panel
     #   psycopg
     #   pydantic
     #   pydantic-core
-    #   pydata-sphinx-theme
     #   python-docx
     #   selenium
     #   sqlalchemy
@@ -1068,9 +974,7 @@ websocket-client==1.8.0
 websockets==15.0.1
     # via voila
 wheel==0.45.1
-    # via
-    #   pip-tools
-    #   sphinx-togglebutton
+    # via pip-tools
 widgetsnbextension==4.0.15
     # via ipywidgets
 wordcloud==1.9.4
