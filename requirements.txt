@@ -703,7 +703,7 @@ py4j==0.10.9.7
     # via hyperopt
 pyarrow==18.0.0
     # via -r requirements.in
-pybtex==0.24.0
+pybtex==0.25.1
     # via
     #   pybtex-docutils
     #   sphinxcontrib-bibtex
@@ -863,7 +863,6 @@ six==1.16.0
     #   chart-studio
     #   geocoder
     #   hyperopt
-    #   pybtex
     #   python-dateutil
     #   retrying
     #   rfc3339-validator
