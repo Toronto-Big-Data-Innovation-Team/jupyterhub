@@ -675,7 +675,7 @@ prometheus-client==0.21.0
     #   jupyter-resource-usage
     #   jupyter-server
     #   jupyterhub
-prompt-toolkit==3.0.48
+prompt-toolkit==3.0.52
     # via
     #   ipython
     #   jupyter-console
