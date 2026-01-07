@@ -207,7 +207,7 @@ future==1.0.0
     #   hyperopt
 fuzzywuzzy==0.18.0
     # via -r requirements.in
-geoalchemy2==0.16.0
+geoalchemy2==0.18.1
     # via -r requirements.in
 geocoder==1.38.1
     # via -r requirements.in
