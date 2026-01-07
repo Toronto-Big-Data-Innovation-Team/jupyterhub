@@ -828,7 +828,7 @@ soupsieve==2.6
     # via beautifulsoup4
 sphinx==7.4.7
     # via sphinx-gallery
-sphinx-gallery==0.18.0
+sphinx-gallery==0.20.0
     # via -r requirements.in
 sphinxcontrib-applehelp==2.0.0
     # via sphinx
