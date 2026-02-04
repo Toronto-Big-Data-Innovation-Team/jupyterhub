@@ -24,7 +24,6 @@ mapclassify
 plotly
 voila
 sqlalchemy
-env-canada
 nest-asyncio
 tabula-py
 psutil
@@ -73,7 +72,7 @@ jupyterlab==4.2.7
 jupyter
 jupyterhub==5.1.0
 jupyterhub-systemdspawner
-jupyter-book==2.1.0
+jupyter-book==1.0.4
 sudospawner
 notebook==7.2.2
 configurable-http-proxy
