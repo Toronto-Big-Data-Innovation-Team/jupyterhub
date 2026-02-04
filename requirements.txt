@@ -40,7 +40,7 @@ async-lru==2.0.4
     # via jupyterlab
 async-timeout==5.0.1
     # via aiohttp
-attrs==24.2.0
+attrs==25.4.0
     # via
     #   aiohttp
     #   fiona
