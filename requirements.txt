@@ -55,7 +55,7 @@ bleach[css]==6.2.0
     # via
     #   nbconvert
     #   panel
-bokeh==3.8.0
+bokeh==3.8.2
     # via
     #   -r requirements.in
     #   holoviews
@@ -170,7 +170,7 @@ faicons==0.2.2
     # via great-tables
 fastjsonschema==2.20.0
     # via nbformat
-filelock==3.17.0
+filelock==3.20.3
     # via r5py
 fiona==1.10.1
     # via
@@ -272,7 +272,7 @@ jedi==0.19.2
     # via ipython
 jenkspy==0.4.1
     # via -r requirements.in
-jinja2==3.1.4
+jinja2==3.1.6
     # via
     #   -r requirements.in
     #   altair
@@ -843,7 +843,7 @@ tomli==2.1.0
     #   pip-tools
     #   pytest
     #   sphinx
-tornado==6.4.1
+tornado==6.5
     # via
     #   bokeh
     #   configurable-http-proxy
