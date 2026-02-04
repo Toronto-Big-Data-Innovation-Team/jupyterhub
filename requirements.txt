@@ -732,7 +732,7 @@ r5py==0.1.2
     # via -r requirements.in
 ratelim==0.1.6
     # via geocoder
-referencing==0.35.1
+referencing==0.37.0
     # via
     #   jsonschema
     #   jsonschema-specifications
@@ -943,6 +943,7 @@ typing-extensions==4.12.2
     #   pydantic
     #   pydantic-core
     #   python-docx
+    #   referencing
     #   selenium
     #   sqlalchemy
 tzdata==2024.2
