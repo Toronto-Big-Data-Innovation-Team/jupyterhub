@@ -14,3 +14,5 @@ updates:
       - dependency-type: "all"
     cooldown:
       default-days: 7
+    #only security updates and exclude version updates
+    open-pull-requests-limit: 0
