@@ -164,8 +164,6 @@ distro==1.9.0
     # via tabula-py
 docutils==0.21.2
     # via sphinx
-env-canada==0.7.2
-    # via -r requirements.in
 esda==2.7.0
     # via -r requirements.in
 et-xmlfile==2.0.0
