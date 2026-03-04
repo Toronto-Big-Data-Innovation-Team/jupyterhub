@@ -70,7 +70,7 @@ great_tables #i018
 # Jupyter
 jupyterlab==4.2.7
 jupyter
-jupyterhub==5.1.0
+jupyterhub==5.4.3
 jupyterhub-systemdspawner
 jupyter-book==2.1.0
 sudospawner
