@@ -131,7 +131,7 @@ contourpy==1.3.1
     # via
     #   bokeh
     #   matplotlib
-cryptography==46.0.5
+cryptography==46.0.7
     # via certipy
 cycler==0.12.1
     # via matplotlib
@@ -355,7 +355,7 @@ jupyter-server==2.14.2
     #   voila
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterhub==5.1.0
+jupyterhub==5.4.4
     # via
     #   -r requirements.in
     #   jupyterhub-systemdspawner
@@ -435,7 +435,7 @@ nbclient==0.10.0
     # via
     #   nbconvert
     #   voila
-nbconvert==7.17.0
+nbconvert==7.17.1
     # via
     #   -r requirements.in
     #   jupyter
@@ -578,7 +578,7 @@ patsy==1.0.1
     # via statsmodels
 pexpect==4.9.0
     # via ipython
-pillow==12.1.1
+pillow==12.2.0
     # via
     #   -r requirements.in
     #   bokeh
@@ -644,6 +644,7 @@ pygments==2.18.0
     #   ipython
     #   jupyter-console
     #   nbconvert
+    #   pytest
     #   sphinx
 pyparsing==3.2.0
     # via matplotlib
@@ -657,7 +658,7 @@ pyproject-hooks==1.2.0
     #   pip-tools
 pysocks==1.7.1
     # via urllib3
-pytest==8.3.3
+pytest==9.0.3
     # via sqlfluff
 python-dateutil==2.9.0.post0
     # via
@@ -843,7 +844,7 @@ tomli==2.1.0
     #   pip-tools
     #   pytest
     #   sphinx
-tornado==6.5
+tornado==6.5.5
     # via
     #   bokeh
     #   configurable-http-proxy
@@ -915,7 +916,7 @@ uc-micro-py==1.0.3
     # via linkify-it-py
 uri-template==1.3.0
     # via jsonschema
-urllib3[socks]==2.2.3
+urllib3[socks]==2.6.3
     # via
     #   requests
     #   selenium
