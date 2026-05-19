@@ -228,7 +228,7 @@ httpx==0.27.2
     # via jupyterlab
 hyperopt==0.2.7
     # via -r requirements.in
-idna==3.11
+idna==3.15
     # via
     #   anyio
     #   httpx
@@ -333,7 +333,7 @@ jupyter-core==5.7.2
     #   nbconvert
     #   nbformat
     #   voila
-jupyter-events==0.10.0
+jupyter-events==0.12.1
     # via
     #   jupyter-server
     #   jupyterhub
@@ -343,7 +343,7 @@ jupyter-lsp==2.2.5
     # via jupyterlab
 jupyter-resource-usage==0.6.0
     # via -r requirements.in
-jupyter-server==2.14.2
+jupyter-server==2.18.0
     # via
     #   jupyter-book
     #   jupyter-lsp
@@ -355,7 +355,7 @@ jupyter-server==2.14.2
     #   voila
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterhub==5.4.4
+jupyterhub==5.4.5
     # via
     #   -r requirements.in
     #   jupyterhub-systemdspawner
@@ -390,7 +390,7 @@ llvmlite==0.43.0
     # via numba
 lorem==0.1.1
     # via -r requirements.in
-lxml==5.4.0
+lxml==6.1.0
     # via
     #   -r requirements.in
     #   python-docx
@@ -423,7 +423,7 @@ mdit-py-plugins==0.4.2
     # via panel
 mdurl==0.1.2
     # via markdown-it-py
-mistune==3.0.2
+mistune==3.2.1
     # via nbconvert
 momepy==0.9.1
     # via -r requirements.in
@@ -525,6 +525,7 @@ packaging==24.2
     #   htmltools
     #   ipykernel
     #   jpype1
+    #   jupyter-events
     #   jupyter-server
     #   jupyterhub
     #   jupyterlab
@@ -539,6 +540,7 @@ packaging==24.2
     #   shap
     #   sphinx
     #   statsmodels
+    #   wheel
 pamela==1.2.0
     # via jupyterhub
 pandas==2.2.3
@@ -902,6 +904,7 @@ typing-extensions==4.15.0
     #   great-tables
     #   htmltools
     #   ipython
+    #   mistune
     #   panel
     #   psycopg
     #   pydantic
@@ -916,7 +919,7 @@ uc-micro-py==1.0.3
     # via linkify-it-py
 uri-template==1.3.0
     # via jsonschema
-urllib3[socks]==2.6.3
+urllib3[socks]==2.7.0
     # via
     #   requests
     #   selenium
@@ -936,7 +939,7 @@ websocket-client==1.8.0
     #   selenium
 websockets==15.0.1
     # via voila
-wheel==0.45.1
+wheel==0.46.2
     # via pip-tools
 widgetsnbextension==4.0.15
     # via ipywidgets
