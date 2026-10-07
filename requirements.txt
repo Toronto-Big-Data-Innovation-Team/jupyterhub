@@ -360,7 +360,7 @@ jupyter-lsp==2.2.5
     # via jupyterlab
 jupyter-resource-usage==0.6.0
     # via -r requirements.in
-jupyter-server==2.18.0
+jupyter-server==2.20.0
     # via
     #   jupyter-book
     #   jupyter-lsp
