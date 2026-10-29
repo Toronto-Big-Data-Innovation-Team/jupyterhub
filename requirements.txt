@@ -293,8 +293,6 @@ pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.7
     # via jedi
-pathlib==1.0.1
-    # via -r requirements.in
 patsy==1.0.3
     # via statsmodels
 pexpect==4.9.0
