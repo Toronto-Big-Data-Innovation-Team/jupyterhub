@@ -64,17 +64,18 @@ openpyxl
 fuzzywuzzy
 graphviz
 ipyleaflet==0.19.2
-pip-tools
+pip-tools==7.6.2
 great_tables #i018
+urllib3>=2.8.0 #trying to deal with some vulnerabilities in dependent packages
+
 
 # Jupyter
-jupyterlab==4.2.7
-jupyter
+jupyterlab>4.5.7
 jupyterhub==6.0.0
 jupyterhub-systemdspawner
 jupyter-book==2.1.0
 sudospawner
-notebook==7.2.2
+notebook #Unpinned to be compatible with jupyterlab 4.5.11
 configurable-http-proxy
 nbconvert
 ipython
